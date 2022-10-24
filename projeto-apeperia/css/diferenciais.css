@@ -44,3 +44,15 @@
 .item__texto {
     line-height: normal;
 }
+
+@media screen and (max-width: 1024px) {
+    .diferenciais {
+        height: 600px;
+        justify-content: space-between;
+    }
+
+    .diferenciais__item {
+        max-width: 300px;
+        justify-content: center;
+    }
+}
