@@ -45,14 +45,14 @@
     line-height: normal;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .diferenciais {
-        height: 600px;
-        justify-content: space-between;
+        background-color: var(--cinza-claro);
     }
-
     .diferenciais__item {
-        max-width: 300px;
+        max-width: 600px;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
         justify-content: center;
     }
 }
